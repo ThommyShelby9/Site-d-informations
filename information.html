@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="information.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <title>Information</title>
+</head>
+
+<body>
+    <div class="bigboss">
+        <nav class="menu">
+            <div class="logo">
+                <img src="logo1.png" alt="Muzan" width="150px">
+            </div>
+            <div class="formulaire">
+                <form action="" method="post">
+                    <!-- <p>
+                        Choisissez votre ville
+                    </p> -->
+                    <div class="input">
+                        <input type="text" name="ville" id="ville" placeholder="Entrez une ville ou un pays"> 
+                        <input type="submit" value="Soumettre" id="btn-register">
+                    </div>
+                   
+                </form>
+            </div>
+            <ul>
+                <a href=""><li>Acceuil</li></a>
+                <a href="#actualités"><li id="global">Actu-monde</li></a>
+                <a href=""><li>Publier un article</li></a>
+                <a href=""><li>Contribuer</li></a>
+                <a href=""><li>Contact</li></a>
+            </ul>
+        </nav>
+        <div class="eader">
+            <div class="sms">
+                <p>
+                    L'information <br> partout dans le monde.
+                </p>
+            </div>
+            <div class="meteo">
+                <div class="box_container">
+                    <div id="condition" class="box"></div>
+                    <div id="temp" class="box"></div>
+                    <div id="humidity" class="box"></div>
+                </div>
+
+            </div>
+           
+        </div>
+        <div class="deuxieme">
+            <p>
+                Recevez l'information en temps réel, partout dans le monde sur une ville donnée et en toute sécurité.
+                 Ne vous en faite pas...Muzan le fait pour vous.
+            </p>
+        </div>
+        <div class="main"> 
+            <div class="info">
+                <div class="nom">
+                    <h3 id="name"></h3>
+                </div>
+                <div class="coordonées">
+                    <div class="long" id="long">
+                        <p></p>
+                    </div>
+                 <!--    <div class="lat" id="lat">
+                        <p></p>
+                    </div> -->
+                </div>
+                <div class="localisation" id="localisation">
+                    <p></p>
+                </div>
+            </div>
+            <div class="boss">
+                <div class="article">
+                    <div class="art__list" id="arts">
+                        <div class="art__item">
+                            <div class="art_img">
+                                <img src="#" alt="" width="300px">
+                           </div>
+                           <div class="art_nom">
+                                <h3></h3>
+                           </div>
+                           <div class="art_content">
+                               <p>
+       
+                               </p>
+                           </div>
+                           <div class="url">
+                               <a href="#"></a>
+                           </div>
+                        </div>
+
+            </div>
+            <div class="bossart" id="bossart">
+                <div class="article">
+                    <div class="art__list" id="art">
+                        <div class="art__item">
+                            <div class="art_img">
+                                <img src="#" alt="" width="300px">
+                           </div>
+                           <div class="art_nom">
+                                <h3></h3>
+                           </div>
+                           <div class="art_content">
+                               <p>
+       
+                               </p>
+                           </div>
+                           <div class="url">
+                               <a href="#"></a>
+                           </div>
+                        </div>
+                        
+                   </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+<script src="information.js"></script>
+
+</html>

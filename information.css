@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Oswald&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Oswald&family=Quicksand&display=swap');
+
+* {
+    padding: auto;
+    margin: auto;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.box_container {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#temp {
+    background-color: transparent;
+    color: black;
+    font-family: 'Oswald';
+}
+
+#name {
+    background-color: transparent;
+    color: black;
+    font-family: 'Oswald';
+}
+
+#humidity {
+    background-color: transparent;
+    color: black;
+    font-family: 'Oswald';
+}
+
+.menu li {
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 60px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.menu ul li {
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.menu ul li:hover {
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    border: none;
+}
+
+#btn-register {
+    margin-left: 55px;
+
+}
+
+#btn-register:hover{
+    background-color: aliceblue;
+}
+
+#ville:hover{
+    background-color: aliceblue;
+}
+
+#ville {
+    background-color: transparent;
+    margin-left: 40px;
+    width: 170px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    
+}
+
+.input{
+    display: flex;
+}
+
+.eader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.meteo {
+    border: 3px solid white;
+    background: transparent;
+    /*  background: rgba(80, 92, 103, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18); */
+    background-image: url(weather-forecast-concept-climate-change-260nw-1390294940.webp);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    transition: all 0.4s;
+}
+
+.meteo:hover {
+    transform: translateY(-20px)
+}
+
+.sms {
+    font-size: 70px;
+    font-family: 'Oswald';
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 3s;
+    -webkit-text-stroke: .7px white;
+}
+
+.deuxieme {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.deuxieme p {
+    font-size: 30px;
+    font-family: 'Quicksand';
+}
+
+.formulaire form p {
+    font-size: 20px;
+}
+
+.article {
+    display: block;
+}
+
+.art__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+    padding: 10px;
+    line-height: 20px;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* 
+ .boss{
+    display: none;
+} 
+.bossart {
+    display: none;
+}
+ */
+.art_content p {
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Quicksand';
+}
+
+.art_nom h3 {
+    font-family: 'Oswald';
+    color: #555555;
+}
+
+.url a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* 
+.art{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    justify-content: space-around;
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 10.2px;
+    padding: 16px;
+    align-items: center;
+    width: 300px;
+}
+
+.art_img img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+} */
+
+.info{
+    line-height: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+.info:hover{
+    transform: translateY(-20px) 
+}
+
+.nom{
+    margin-top: 10px;
+}
+
+@keyframes homeBgText{
+    0%, 10%, 100% {
+        background-position: -50rem 0;
+    }
+    65%, 85%{
+        background-position: 0 0; 
+    }
+}
